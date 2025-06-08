@@ -5,6 +5,7 @@ import RegisterPage from './pages/RegisterPage';
 import ProductCatalog from './pages/ProductCatalog';
 import CartPage from './pages/CartPage';
 import ProductPage from './pages/ProductPage';
+import LoginPage from './pages/LoginPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/catalog" element={<ProductCatalog />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/product/:id" element={<ProductPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </main>
       <Footer />

@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { AuthContext } from '../contexts/AuthContext';
 
 function RegisterPage() {
+  const { register } = useContext(AuthContext);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -25,8 +27,8 @@ function RegisterPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      localStorage.setItem('user', JSON.stringify(formData));
-      alert('Registration successful!');
+      // Register user via AuthContext
+      register(formData);
     }
   };
 
