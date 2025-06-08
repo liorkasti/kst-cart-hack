@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
-import products from '../../shared/enhanced_products.json';
+import products from '../../shared/products.json';
 
 function ProductPage() {
   const { id } = useParams();

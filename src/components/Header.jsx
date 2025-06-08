@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import theme from '../theme';
 import './Header.css';
+import logo from '../../shared/logo.png';
 
 const Header = () => {
   return (
@@ -11,10 +12,13 @@ const Header = () => {
         backgroundColor: theme.colors.accent,
         borderBottom: `1px solid ${theme.colors.border}`,
         color: theme.colors.text,
-        width: '100%', // Ensure the header spans the full width
-        boxSizing: 'border-box', // Include padding and border in width calculations
+        width: '100%',
+        boxSizing: 'border-box',
       }}
     >
+      <div className="logo">
+        <img src={logo} alt="Website Logo" style={{ height: '40px' }} />
+      </div>
       <div className="logo" style={{ color: theme.colors.primary }}>
         B-Healthy Shopi
       </div>

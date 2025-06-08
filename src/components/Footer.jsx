@@ -13,7 +13,8 @@ const Footer = () => {
         borderTop: `1px solid ${theme.colors.border}`,
       }}
     >
-      <p>&copy; 2023 B-Healthy Shopi. All rights reserved.</p>
+      <span>&copy; </span>
+      <p className="animated-credit">kst-apps</p>
     </footer>
   );
 };

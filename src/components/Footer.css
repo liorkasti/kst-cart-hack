@@ -15,3 +15,14 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+/* Animation for footer credit */
+.animated-credit {
+  display: inline-block;
+  animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
