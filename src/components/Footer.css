@@ -1,0 +1,17 @@
+/* Styles for the Footer component */
+
+footer {
+  width: 100%;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+}

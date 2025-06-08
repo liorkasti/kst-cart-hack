@@ -1,0 +1,54 @@
+/* Styles for the Header component */
+
+.header {
+  width: 100%; /* Ensure the header spans the full width */
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box; /* Include padding and border in width calculations */
+  position: relative; /* Ensure proper positioning */
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.header nav ul li {
+  font-size: 1rem;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+  color: #007BFF;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

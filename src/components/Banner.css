@@ -1,0 +1,25 @@
+/* Styles for the Banner component */
+
+.banner {
+  width: 100%;
+  height: 300px;
+  background: url('https://example.com/banner-image.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
