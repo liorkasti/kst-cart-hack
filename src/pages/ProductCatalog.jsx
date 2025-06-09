@@ -1,5 +1,8 @@
-import React, { useCallback, memo } from 'react';
+import React, { useState, useCallback, memo } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import products from '../../shared/products_data.json';
+import { filterProducts } from '../utils/filter.js';
+import './ProductCatalog.css';
 const soapImages = import.meta.glob('/shared/soap_images/soap_*.png', {
   eager: true,
   as: 'url',
@@ -34,6 +37,15 @@ const getImageSrc = (product) => {
 };
 
 function ProductCatalog() {
+  const location = useLocation();
+  const params = new URLSearchParams(location.search);
+  const initialCategory = params.get('category') || '';
+  const [searchTerm, setSearchTerm] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState(initialCategory);
+  const filtered = filterProducts(products, {
+    searchTerm,
+    category: categoryFilter,
+  });
   const addToCart = useCallback((product) => {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.push(product);
@@ -43,16 +55,52 @@ function ProductCatalog() {
 
   return (
     <div>
+      <div className="catalog-filters">
+        <input
+          type="text"
+          placeholder="Search products..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+        <select
+          value={categoryFilter}
+          onChange={(e) => setCategoryFilter(e.target.value)}
+        >
+          <option value="">All Categories</option>
+          <option value="סבונים">סבונים</option>
+          <option value="קרמים">קרמים</option>
+          <option value="שמנים אתריים">שמנים אתריים</option>
+        </select>
+      </div>
       <h2>Product Catalog</h2>
-      <div className="product-grid">
-        {products.map((product) => (
-          <div key={product.id} className="product-card">
-            <img src={getImageSrc(product)} alt={product.name} loading="lazy" />
-            <h3>{product.name}</h3>
-            <p>{product.description}</p>
-            <p>${product.price}</p>
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
-          </div>
+      <div className="product-grid responsive-grid">
+        {filtered.map((product) => (
+          <Link
+            key={product.id}
+            to={`/product/${product.id}`}
+            className="product-card-link"
+            style={{ textDecoration: 'none' }}
+          >
+            <div className="product-card" onClick={(e) => e.stopPropagation()}>
+              <img
+                src={getImageSrc(product)}
+                alt={product.name}
+                loading="lazy"
+              />
+              <h3>{product.name}</h3>
+              <p>{product.description}</p>
+              <p>${product.price}</p>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  addToCart(product);
+                }}
+              >
+                Add to Cart
+              </button>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

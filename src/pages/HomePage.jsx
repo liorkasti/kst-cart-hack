@@ -4,10 +4,13 @@ import env1 from '../../shared/envierment1.png';
 import env2 from '../../shared/envierment2.png';
 import products from '../../shared/products_data.json';
 import ProductCard from '../components/ProductCard';
+import { Link } from 'react-router-dom';
+import './HomePage.css';
 
 function HomePage() {
   const banners = [env1, env2];
   const [current, setCurrent] = useState(0);
+  const stripRefs = React.useRef({});
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -119,16 +122,20 @@ function HomePage() {
           </h2>
           <p>Discover our natural skincare products.</p>
         </section>
-        {categoryLists.map(({ title, items }) => (
+        {categoryLists.map(({ title, items, key }) => (
           <div key={title} className="product-strip">
-            <h3 style={{ color: theme.colors.secondary }}>{title}</h3>
+            <div className="strip-header">
+              <h3 style={{ color: theme.colors.secondary }}>{title}</h3>
+              <Link
+                to={`/catalog?category=${encodeURIComponent(key)}`}
+                className="see-more"
+              >
+                See more
+              </Link>
+            </div>
             <div
-              className="product-list"
-              style={{
-                display: 'flex',
-                overflowX: 'auto',
-                gap: theme.spacing.medium,
-              }}
+              className="strip-grid"
+              ref={(el) => (stripRefs.current[key] = el)}
             >
               {items.map((prod) => (
                 <ProductCard
@@ -138,20 +145,26 @@ function HomePage() {
                 />
               ))}
             </div>
+            <div className="scroll-button-container">
+              <button
+                className="scroll-btn"
+                onClick={() =>
+                  stripRefs.current[key]?.scrollBy({
+                    left: 300,
+                    behavior: 'smooth',
+                  })
+                }
+              >
+                ›
+              </button>
+            </div>
           </div>
         ))}
         <div className="product-strip">
           <h3 style={{ color: theme.colors.secondary }}>
             Recommended Products
           </h3>
-          <div
-            className="product-list"
-            style={{
-              display: 'flex',
-              overflowX: 'auto',
-              gap: theme.spacing.medium,
-            }}
-          >
+          <div className="strip-grid">
             {recommended.map((prod) => (
               <ProductCard
                 key={prod.id}
