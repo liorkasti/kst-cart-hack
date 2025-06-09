@@ -1,27 +1,33 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useParams } from 'react-router-dom';
-import products from '../../shared/products.json';
+import products from '../../shared/products_data.json';
+
+// Resolve image URLs including Hebrew-named files
+const getImageSrc = (product) => {
+  return product.image.startsWith('http')
+    ? product.image
+    : new URL(`../../${product.image}`, import.meta.url).href;
+};
 
 function ProductPage() {
-  // Use locally generated large image for this product
-  const safeCategory = product.category.replace(/\s+/g, '_');
-  const localImage = `/images/${safeCategory}/large/${product.id}-1.png`;
   const { id } = useParams();
   const product = products.find((item) => item.id === parseInt(id));
-
-  if (!product) return <p>Product not found.</p>;
-
-  const addToCart = () => {
+  // Memoize addToCart for performance
+  const addToCart = useCallback(() => {
+    if (!product) return;
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.push(product);
     localStorage.setItem('cart', JSON.stringify(cart));
     alert(`${product.name} added to cart!`);
-  };
+  }, [product]);
+  if (!product) return <p>Product not found.</p>;
+  // Determine the correct image URL
+  const imageUrl = getImageSrc(product);
 
   return (
     <div>
       <h2>{product.name}</h2>
-      <img src={localImage} alt={product.name} />
+      <img src={imageUrl} alt={product.name} loading="lazy" />
       <p>{product.detailedDescription}</p>
       <p>Ingredients: {product.ingredients.join(', ')}</p>
       <p>Price: ${product.price}</p>

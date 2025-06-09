@@ -1,7 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import theme from '../theme';
 import env1 from '../../shared/envierment1.png';
 import env2 from '../../shared/envierment2.png';
+import products from '../../shared/products_data.json';
+import ProductCard from '../components/ProductCard';
 
 function HomePage() {
   const banners = [env1, env2];
@@ -14,12 +16,35 @@ function HomePage() {
     return () => clearInterval(interval);
   }, [banners.length]);
 
-  const categories = [
-    'Top Oils',
-    'Top Soaps',
-    'Top Creams',
-    'Recommended Products',
-  ];
+  const categories = useMemo(
+    () => [
+      { title: 'Top Oils', key: 'שמנים אתריים' },
+      { title: 'Top Soaps', key: 'סבונים' },
+      { title: 'Top Creams', key: 'קרמים' },
+    ],
+    []
+  );
+  const categoryLists = useMemo(
+    () =>
+      categories.map(({ title, key }) => ({
+        title,
+        items: products
+          .filter((p) => p.category === key)
+          .sort((a, b) => b.rating - a.rating)
+          .slice(0, 5),
+      })),
+    [categories]
+  );
+  const recommended = useMemo(
+    () => [...products].sort((a, b) => b.rating - a.rating).slice(0, 5),
+    []
+  );
+  const handleAddToCart = useCallback((product) => {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(product);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert(`${product.name} added to cart!`);
+  }, []);
 
   return (
     <div
@@ -94,50 +119,48 @@ function HomePage() {
           </h2>
           <p>Discover our natural skincare products.</p>
         </section>
-        {categories.map((category) => (
-          <div key={category} className="product-strip">
-            <h3 style={{ color: theme.colors.secondary }}>{category}</h3>
-            <div className="product-list">
-              {/* Placeholder for products */}
-              <div
-                className="product-card"
-                style={{
-                  backgroundColor: theme.colors.accent,
-                  border: `1px solid ${theme.colors.border}`,
-                }}
-              >
-                Product 1
-              </div>
-              <div
-                className="product-card"
-                style={{
-                  backgroundColor: theme.colors.accent,
-                  border: `1px solid ${theme.colors.border}`,
-                }}
-              >
-                Product 2
-              </div>
-              <div
-                className="product-card"
-                style={{
-                  backgroundColor: theme.colors.accent,
-                  border: `1px solid ${theme.colors.border}`,
-                }}
-              >
-                Product 3
-              </div>
-            </div>
-            <button
+        {categoryLists.map(({ title, items }) => (
+          <div key={title} className="product-strip">
+            <h3 style={{ color: theme.colors.secondary }}>{title}</h3>
+            <div
+              className="product-list"
               style={{
-                backgroundColor: theme.colors.primary,
-                color: theme.colors.background,
-                border: `1px solid ${theme.colors.primary}`,
+                display: 'flex',
+                overflowX: 'auto',
+                gap: theme.spacing.medium,
               }}
             >
-              See More
-            </button>
+              {items.map((prod) => (
+                <ProductCard
+                  key={prod.id}
+                  product={prod}
+                  onAddToCart={handleAddToCart}
+                />
+              ))}
+            </div>
           </div>
         ))}
+        <div className="product-strip">
+          <h3 style={{ color: theme.colors.secondary }}>
+            Recommended Products
+          </h3>
+          <div
+            className="product-list"
+            style={{
+              display: 'flex',
+              overflowX: 'auto',
+              gap: theme.spacing.medium,
+            }}
+          >
+            {recommended.map((prod) => (
+              <ProductCard
+                key={prod.id}
+                product={prod}
+                onAddToCart={handleAddToCart}
+              />
+            ))}
+          </div>
+        </div>
       </main>
     </div>
   );

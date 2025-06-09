@@ -9,7 +9,7 @@
       "שמן זית",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=1",
+    "image": "shared/soap_images/soap_1.png",
     "rating": 4.5,
     "stock": 26,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -45,7 +45,7 @@
       "שמן זית",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=2",
+    "image": "shared/cream_images/cream_2.png",
     "rating": 4.3,
     "stock": 88,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -122,7 +122,7 @@
       "שמן קוקוס",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=4",
+    "image": "shared/oil_images/oil_2.png",
     "rating": 4.4,
     "stock": 10,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -159,7 +159,7 @@
       "שמן ארגן",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=5",
+    "image": "shared/soap_images/soap_2.png",
     "rating": 5.0,
     "stock": 21,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -231,7 +231,7 @@
       "שמן ארגן",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=7",
+    "image": "shared/oil_images/oil_3.png",
     "rating": 4.1,
     "stock": 49,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -307,7 +307,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=9",
+    "image": "shared/soap_images/soap_3.png",
     "rating": 3.8,
     "stock": 90,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -382,7 +382,7 @@
       "שמן חמניות",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=11",
+    "image": "shared/soap_images/soap_4.png",
     "rating": 4.1,
     "stock": 57,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -420,7 +420,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=12",
+    "image": "shared/oil_images/oil_4.png",
     "rating": 3.8,
     "stock": 6,
     "description": "מרגיע שמנים אתריי איכותי לטיפוח העור.",
@@ -495,7 +495,7 @@
       "לצה",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=14",
+    "image": "shared/soap_images/soap_5.png",
     "rating": 4.5,
     "stock": 50,
     "description": "מרענן סבוני איכותי לטיפוח העור.",
@@ -567,7 +567,7 @@
       "שמן זית",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=16",
+    "image": "shared/cream_images/cream_3.png",
     "rating": 3.7,
     "stock": 64,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -605,7 +605,7 @@
       "מרכיבים צמחיים אחרים",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=17",
+    "image": "shared/cream_images/cream_4.png",
     "rating": 4.7,
     "stock": 87,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -641,7 +641,7 @@
       "שמן זית",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=18",
+    "image": "shared/soap_images/soap_6.png",
     "rating": 4.1,
     "stock": 77,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -678,7 +678,7 @@
       "שמן זית",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=19",
+    "image": "shared/oil_images/oil_5.png",
     "rating": 3.5,
     "stock": 4,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -863,7 +863,7 @@
       "לבנדר",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=24",
+    "image": "shared/oil_images/oil_6.png",
     "rating": 4.9,
     "stock": 96,
     "description": "מרענן שמנים אתריי איכותי לטיפוח העור.",
@@ -898,7 +898,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=25",
+    "image": "shared/cream_images/cream_5.png",
     "rating": 3.9,
     "stock": 53,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -971,7 +971,7 @@
       "לבנדר",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=27",
+    "image": "shared/oil_images/oil_7.png",
     "rating": 4.7,
     "stock": 17,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -1009,7 +1009,7 @@
       "לצה",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=28",
+    "image": "shared/cream_images/cream_6.png",
     "rating": 3.6,
     "stock": 21,
     "description": "מפנק קרמי איכותי לטיפוח העור.",
@@ -1121,7 +1121,7 @@
       "שמן קוקוס",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=31",
+    "image": "shared/soap_images/soap_7.png",
     "rating": 4.1,
     "stock": 7,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -1160,7 +1160,7 @@
       "שמן חמניות",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=32",
+    "image": "shared/soap_images/soap_8.png",
     "rating": 4.9,
     "stock": 23,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -1344,7 +1344,7 @@
       "שמן חמניות",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=37",
+    "image": "shared/soap_images/soap_9.png",
     "rating": 4.4,
     "stock": 81,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -1418,7 +1418,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=39",
+    "image": "shared/cream_images/cream_7.png",
     "rating": 4.3,
     "stock": 63,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -1491,7 +1491,7 @@
       "שמן קוקוס",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=41",
+    "image": "shared/soap_images/soap_10.png",
     "rating": 4.6,
     "stock": 70,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -1636,7 +1636,7 @@
       "לצה",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=45",
+    "image": "shared/soap_images/soap_11.png",
     "rating": 4.5,
     "stock": 98,
     "description": "מרגיע סבוני איכותי לטיפוח העור.",
@@ -1671,7 +1671,7 @@
       "שמן קוקוס",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=46",
+    "image": "shared/soap_images/soap_12.png",
     "rating": 3.7,
     "stock": 54,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -1745,7 +1745,7 @@
       "שמן ארגן",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=48",
+    "image": "shared/cream_images/cream_8.png",
     "rating": 4.0,
     "stock": 9,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -1782,7 +1782,7 @@
       "שמן ארגן",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=49",
+    "image": "shared/oil_images/oil_8.png",
     "rating": 4.7,
     "stock": 13,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -1818,7 +1818,7 @@
       "שמן חמניות",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=50",
+    "image": "shared/soap_images/soap_13.png",
     "rating": 4.5,
     "stock": 92,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -1853,7 +1853,7 @@
       "לבנדר",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=51",
+    "image": "shared/soap_images/soap_14.png",
     "rating": 4.1,
     "stock": 27,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -1892,7 +1892,7 @@
       "שמן ארגן",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=52",
+    "image": "shared/oil_images/oil_9.png",
     "rating": 4.1,
     "stock": 76,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -1930,7 +1930,7 @@
       "שמן ארגן",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=53",
+    "image": "shared/oil_images/oil_10.png",
     "rating": 4.3,
     "stock": 10,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -1968,7 +1968,7 @@
       "שמן ארגן",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=54",
+    "image": "shared/soap_images/soap_15.png",
     "rating": 4.9,
     "stock": 95,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -2150,7 +2150,7 @@
       "לבנדר",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=59",
+    "image": "shared/cream_images/cream_9.png",
     "rating": 4.5,
     "stock": 77,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -2188,7 +2188,7 @@
       "מרכיבים צמחיים אחרים",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=60",
+    "image": "shared/soap_images/soap_16.png",
     "rating": 4.2,
     "stock": 18,
     "description": "מרגיע סבוני איכותי לטיפוח העור.",
@@ -2262,7 +2262,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=62",
+    "image": "shared/soap_images/soap_17.png",
     "rating": 4.1,
     "stock": 22,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -2300,7 +2300,7 @@
       "שמן זית",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=63",
+    "image": "shared/soap_images/soap_18.png",
     "rating": 4.2,
     "stock": 73,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -2376,7 +2376,7 @@
       "שמן ארגן",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=65",
+    "image": "shared/cream_images/cream_10.png",
     "rating": 4.9,
     "stock": 74,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -2451,7 +2451,7 @@
       "לבנדר",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=67",
+    "image": "shared/soap_images/soap_19.png",
     "rating": 4.7,
     "stock": 41,
     "description": "מרגיע סבוני איכותי לטיפוח העור.",
@@ -2488,7 +2488,7 @@
       "שמן ארגן",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=68",
+    "image": "shared/cream_images/cream_11.png",
     "rating": 4.2,
     "stock": 66,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -2525,7 +2525,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=69",
+    "image": "shared/soap_images/soap_20.png",
     "rating": 4.8,
     "stock": 15,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -2562,7 +2562,7 @@
       "שמן קוקוס",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=70",
+    "image": "shared/soap_images/soap_21.png",
     "rating": 4.4,
     "stock": 87,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -2599,7 +2599,7 @@
       "שמן זית",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=71",
+    "image": "shared/soap_images/soap_22.png",
     "rating": 4.6,
     "stock": 66,
     "description": "מרענן סבוני איכותי לטיפוח העור.",
@@ -2636,7 +2636,7 @@
       "מרכיבים צמחיים אחרים",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=72",
+    "image": "shared/cream_images/cream_12.png",
     "rating": 3.9,
     "stock": 79,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -2711,7 +2711,7 @@
       "שמן ארגן",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=74",
+    "image": "shared/oil_images/oil_11.png",
     "rating": 4.4,
     "stock": 59,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -2785,7 +2785,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=76",
+    "image": "shared/soap_images/soap_23.png",
     "rating": 3.8,
     "stock": 3,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -2858,7 +2858,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=78",
+    "image": "shared/oil_images/oil_12.png",
     "rating": 4.0,
     "stock": 99,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -2933,7 +2933,7 @@
       "שמן זית",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=80",
+    "image": "shared/oil_images/oil_13.png",
     "rating": 4.1,
     "stock": 70,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -3160,7 +3160,7 @@
       "לצה",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=86",
+    "image": "shared/oil_images/oil_14.png",
     "rating": 4.4,
     "stock": 6,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -3198,7 +3198,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=87",
+    "image": "shared/cream_images/cream_13.png",
     "rating": 3.6,
     "stock": 33,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -3309,7 +3309,7 @@
       "לצה",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=90",
+    "image": "shared/soap_images/soap_24.png",
     "rating": 4.6,
     "stock": 22,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -3385,7 +3385,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=92",
+    "image": "shared/soap_images/soap_25.png",
     "rating": 4.0,
     "stock": 100,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -3421,7 +3421,7 @@
       "שמן קוקוס",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=93",
+    "image": "shared/soap_images/soap_26.png",
     "rating": 4.8,
     "stock": 66,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -3498,7 +3498,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=95",
+    "image": "shared/oil_images/oil_15.png",
     "rating": 4.6,
     "stock": 0,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -3535,7 +3535,7 @@
       "שמן זית",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=96",
+    "image": "shared/cream_images/cream_14.png",
     "rating": 3.5,
     "stock": 76,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -3646,7 +3646,7 @@
       "לבנדר",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=99",
+    "image": "shared/oil_images/oil_16.png",
     "rating": 3.6,
     "stock": 83,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -3721,7 +3721,7 @@
       "שמן זית",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=101",
+    "image": "shared/cream_images/cream_15.png",
     "rating": 4.6,
     "stock": 21,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -3757,7 +3757,7 @@
       "שמן חמניות",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=102",
+    "image": "shared/cream_images/cream_16.png",
     "rating": 3.7,
     "stock": 26,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -3795,7 +3795,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=103",
+    "image": "shared/soap_images/soap_27.png",
     "rating": 3.8,
     "stock": 47,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -3869,7 +3869,7 @@
       "לבנדר",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=105",
+    "image": "shared/oil_images/oil_17.png",
     "rating": 4.0,
     "stock": 72,
     "description": "מרענן שמנים אתריי איכותי לטיפוח העור.",
@@ -3907,7 +3907,7 @@
       "שמן ארגן",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=106",
+    "image": "shared/oil_images/oil_18.png",
     "rating": 4.0,
     "stock": 54,
     "description": "מרגיע שמנים אתריי איכותי לטיפוח העור.",
@@ -3942,7 +3942,7 @@
       "לצה",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=107",
+    "image": "shared/oil_images/oil_19.png",
     "rating": 4.9,
     "stock": 50,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -3979,7 +3979,7 @@
       "שמן חמניות",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=108",
+    "image": "shared/oil_images/oil_20.png",
     "rating": 4.0,
     "stock": 65,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -4015,7 +4015,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=109",
+    "image": "shared/soap_images/soap_28.png",
     "rating": 3.6,
     "stock": 23,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -4052,7 +4052,7 @@
       "שמן ארגן",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=110",
+    "image": "shared/cream_images/cream_17.png",
     "rating": 4.7,
     "stock": 63,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -4088,7 +4088,7 @@
       "שמן קוקוס",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=111",
+    "image": "shared/oil_images/oil_21.png",
     "rating": 4.4,
     "stock": 41,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -4161,7 +4161,7 @@
       "שמן ארגן",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=113",
+    "image": "shared/oil_images/oil_22.png",
     "rating": 4.5,
     "stock": 27,
     "description": "מרגיע שמנים אתריי איכותי לטיפוח העור.",
@@ -4198,7 +4198,7 @@
       "שמן זית",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=114",
+    "image": "shared/oil_images/oil_23.png",
     "rating": 5.0,
     "stock": 61,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -4233,7 +4233,7 @@
       "שמן חמניות",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=115",
+    "image": "shared/soap_images/soap_29.png",
     "rating": 4.1,
     "stock": 73,
     "description": "מרענן סבוני איכותי לטיפוח העור.",
@@ -4307,7 +4307,7 @@
       "לבנדר",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=117",
+    "image": "shared/oil_images/oil_24.png",
     "rating": 3.7,
     "stock": 32,
     "description": "מרענן שמנים אתריי איכותי לטיפוח העור.",
@@ -4345,7 +4345,7 @@
       "שמן חמניות",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=118",
+    "image": "shared/cream_images/cream_18.png",
     "rating": 3.5,
     "stock": 67,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -4381,7 +4381,7 @@
       "לצה",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=119",
+    "image": "shared/cream_images/cream_19.png",
     "rating": 4.8,
     "stock": 99,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -4418,7 +4418,7 @@
       "שמן קוקוס",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=120",
+    "image": "shared/oil_images/oil_25.png",
     "rating": 4.3,
     "stock": 48,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -4453,7 +4453,7 @@
       "שמן חמניות",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=121",
+    "image": "shared/soap_images/soap_30.png",
     "rating": 3.9,
     "stock": 41,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -4564,7 +4564,7 @@
       "שמן זית",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=124",
+    "image": "shared/oil_images/oil_26.png",
     "rating": 3.9,
     "stock": 31,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -4638,7 +4638,7 @@
       "שמן קוקוס",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=126",
+    "image": "shared/oil_images/oil_27.png",
     "rating": 3.8,
     "stock": 46,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -4675,7 +4675,7 @@
       "שמן חמניות",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=127",
+    "image": "shared/cream_images/cream_20.png",
     "rating": 5.0,
     "stock": 87,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -4711,7 +4711,7 @@
       "שמן חמניות",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=128",
+    "image": "shared/cream_images/cream_21.png",
     "rating": 4.8,
     "stock": 25,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -4748,7 +4748,7 @@
       "לבנדר",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=129",
+    "image": "shared/cream_images/cream_22.png",
     "rating": 4.2,
     "stock": 4,
     "description": "מפנק קרמי איכותי לטיפוח העור.",
@@ -4786,7 +4786,7 @@
       "שמן קוקוס",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=130",
+    "image": "shared/soap_images/soap_31.png",
     "rating": 4.4,
     "stock": 16,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -4860,7 +4860,7 @@
       "שמן קוקוס",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=132",
+    "image": "shared/oil_images/oil_28.png",
     "rating": 4.1,
     "stock": 21,
     "description": "מרגיע שמנים אתריי איכותי לטיפוח העור.",
@@ -4898,7 +4898,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=133",
+    "image": "shared/oil_images/oil_29.png",
     "rating": 4.7,
     "stock": 14,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -4935,7 +4935,7 @@
       "שמן זית",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=134",
+    "image": "shared/soap_images/soap_32.png",
     "rating": 4.3,
     "stock": 18,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -4972,7 +4972,7 @@
       "מרכיבים צמחיים אחרים",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=135",
+    "image": "shared/soap_images/soap_33.png",
     "rating": 4.4,
     "stock": 27,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -5008,7 +5008,7 @@
       "שמן זית",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=136",
+    "image": "shared/cream_images/cream_23.png",
     "rating": 4.3,
     "stock": 79,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -5047,7 +5047,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=137",
+    "image": "shared/cream_images/cream_24.png",
     "rating": 4.8,
     "stock": 100,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -5084,7 +5084,7 @@
       "שמן חמניות",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=138",
+    "image": "shared/soap_images/soap_34.png",
     "rating": 4.0,
     "stock": 34,
     "description": "מפנק סבוני איכותי לטיפוח העור.",
@@ -5123,7 +5123,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=139",
+    "image": "shared/cream_images/cream_25.png",
     "rating": 4.1,
     "stock": 68,
     "description": "מפנק קרמי איכותי לטיפוח העור.",
@@ -5200,7 +5200,7 @@
       "שמן קוקוס",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=141",
+    "image": "shared/cream_images/cream_26.png",
     "rating": 4.0,
     "stock": 79,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -5239,7 +5239,7 @@
       "שמן ארגן",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=142",
+    "image": "shared/oil_images/oil_30.png",
     "rating": 4.0,
     "stock": 98,
     "description": "מרענן שמנים אתריי איכותי לטיפוח העור.",
@@ -5313,7 +5313,7 @@
       "שמן חמניות",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=144",
+    "image": "shared/oil_images/oil_31.png",
     "rating": 4.5,
     "stock": 100,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -5349,7 +5349,7 @@
       "שמן חמניות",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=145",
+    "image": "shared/cream_images/cream_27.png",
     "rating": 4.1,
     "stock": 15,
     "description": "מפנק קרמי איכותי לטיפוח העור.",
@@ -5458,7 +5458,7 @@
       "לבנדר",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=148",
+    "image": "shared/oil_images/oil_32.png",
     "rating": 5.0,
     "stock": 85,
     "description": "מרגיע שמנים אתריי איכותי לטיפוח העור.",
@@ -5533,7 +5533,7 @@
       "שמן ארגן",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=150",
+    "image": "shared/cream_images/cream_28.png",
     "rating": 4.1,
     "stock": 83,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -5571,7 +5571,7 @@
       "לבנדר",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=151",
+    "image": "shared/soap_images/soap_35.png",
     "rating": 4.5,
     "stock": 1,
     "description": "מרגיע סבוני איכותי לטיפוח העור.",
@@ -5645,7 +5645,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=153",
+    "image": "shared/cream_images/cream_29.png",
     "rating": 4.9,
     "stock": 34,
     "description": "מפנק קרמי איכותי לטיפוח העור.",
@@ -5682,7 +5682,7 @@
       "שמן קוקוס",
       "לבנדר"
     ],
-    "image": "https://via.placeholder.com/300?text=154",
+    "image": "shared/soap_images/soap_36.png",
     "rating": 4.6,
     "stock": 80,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -5755,7 +5755,7 @@
       "שמן זית",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=156",
+    "image": "shared/cream_images/cream_30.png",
     "rating": 4.4,
     "stock": 61,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -5793,7 +5793,7 @@
       "שמן קוקוס",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=157",
+    "image": "shared/cream_images/cream_31.png",
     "rating": 4.1,
     "stock": 18,
     "description": "טבעי קרמי איכותי לטיפוח העור.",
@@ -5867,7 +5867,7 @@
       "שמן חמניות",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=159",
+    "image": "shared/oil_images/oil_33.png",
     "rating": 4.2,
     "stock": 44,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -5903,7 +5903,7 @@
       "לצה",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=160",
+    "image": "shared/oil_images/oil_34.png",
     "rating": 3.6,
     "stock": 59,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -5977,7 +5977,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=162",
+    "image": "shared/oil_images/oil_35.png",
     "rating": 4.2,
     "stock": 52,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -6016,7 +6016,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=163",
+    "image": "shared/cream_images/cream_32.png",
     "rating": 3.8,
     "stock": 64,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -6089,7 +6089,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=165",
+    "image": "shared/soap_images/soap_37.png",
     "rating": 3.7,
     "stock": 92,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -6126,7 +6126,7 @@
       "לצה",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=166",
+    "image": "shared/cream_images/cream_33.png",
     "rating": 3.7,
     "stock": 93,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -6163,7 +6163,7 @@
       "לבנדר",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=167",
+    "image": "shared/soap_images/soap_38.png",
     "rating": 3.8,
     "stock": 55,
     "description": "מרגיע סבוני איכותי לטיפוח העור.",
@@ -6199,7 +6199,7 @@
       "שמן חמניות",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=168",
+    "image": "shared/cream_images/cream_34.png",
     "rating": 4.4,
     "stock": 64,
     "description": "אורגני קרמי איכותי לטיפוח העור.",
@@ -6235,7 +6235,7 @@
       "שמן חמניות",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=169",
+    "image": "shared/soap_images/soap_39.png",
     "rating": 4.6,
     "stock": 78,
     "description": "אורגני סבוני איכותי לטיפוח העור.",
@@ -6309,7 +6309,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=171",
+    "image": "shared/oil_images/oil_36.png",
     "rating": 4.0,
     "stock": 2,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -6346,7 +6346,7 @@
       "שמן זית",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=172",
+    "image": "shared/oil_images/oil_37.png",
     "rating": 3.8,
     "stock": 19,
     "description": "מרענן שמנים אתריי איכותי לטיפוח העור.",
@@ -6456,7 +6456,7 @@
       "לבנדר",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=175",
+    "image": "shared/oil_images/oil_38.png",
     "rating": 4.5,
     "stock": 14,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -6493,7 +6493,7 @@
       "לבנדר",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=176",
+    "image": "shared/oil_images/oil_39.png",
     "rating": 3.8,
     "stock": 47,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -6568,7 +6568,7 @@
       "לבנדר",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=178",
+    "image": "shared/soap_images/soap_40.png",
     "rating": 3.8,
     "stock": 76,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -6607,7 +6607,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=179",
+    "image": "shared/soap_images/soap_41.png",
     "rating": 4.8,
     "stock": 90,
     "description": "מרענן סבוני איכותי לטיפוח העור.",
@@ -6681,7 +6681,7 @@
       "שמן קוקוס",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=181",
+    "image": "shared/cream_images/cream_35.png",
     "rating": 4.4,
     "stock": 56,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -6717,7 +6717,7 @@
       "שמן זית",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=182",
+    "image": "shared/oil_images/oil_40.png",
     "rating": 3.8,
     "stock": 77,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -6861,7 +6861,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=186",
+    "image": "shared/cream_images/cream_36.png",
     "rating": 4.9,
     "stock": 34,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -6898,7 +6898,7 @@
       "שמן קוקוס",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=187",
+    "image": "shared/cream_images/cream_37.png",
     "rating": 4.4,
     "stock": 21,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -6935,7 +6935,7 @@
       "לצה",
       "שמן קוקוס"
     ],
-    "image": "https://via.placeholder.com/300?text=188",
+    "image": "shared/oil_images/oil_41.png",
     "rating": 4.9,
     "stock": 19,
     "description": "טבעי שמנים אתריי איכותי לטיפוח העור.",
@@ -6972,7 +6972,7 @@
       "מרכיבים צמחיים אחרים",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=189",
+    "image": "shared/soap_images/soap_42.png",
     "rating": 3.5,
     "stock": 27,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -7120,7 +7120,7 @@
       "שמן זית",
       "מרכיבים צמחיים אחרים"
     ],
-    "image": "https://via.placeholder.com/300?text=193",
+    "image": "shared/cream_images/cream_38.png",
     "rating": 4.4,
     "stock": 79,
     "description": "מרגיע קרמי איכותי לטיפוח העור.",
@@ -7157,7 +7157,7 @@
       "שמן זית",
       "שמן ארגן"
     ],
-    "image": "https://via.placeholder.com/300?text=194",
+    "image": "shared/soap_images/soap_43.png",
     "rating": 4.2,
     "stock": 43,
     "description": "טבעי סבוני איכותי לטיפוח העור.",
@@ -7194,7 +7194,7 @@
       "לבנדר",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=195",
+    "image": "shared/cream_images/cream_39.png",
     "rating": 4.2,
     "stock": 97,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -7232,7 +7232,7 @@
       "שמן ארגן",
       "שמן חמניות"
     ],
-    "image": "https://via.placeholder.com/300?text=196",
+    "image": "shared/oil_images/oil_42.png",
     "rating": 3.7,
     "stock": 35,
     "description": "מפנק שמנים אתריי איכותי לטיפוח העור.",
@@ -7306,7 +7306,7 @@
       "לצה",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=198",
+    "image": "shared/cream_images/cream_40.png",
     "rating": 4.6,
     "stock": 22,
     "description": "מרענן קרמי איכותי לטיפוח העור.",
@@ -7343,7 +7343,7 @@
       "שמן חמניות",
       "שמן זית"
     ],
-    "image": "https://via.placeholder.com/300?text=199",
+    "image": "shared/oil_images/oil_43.png",
     "rating": 3.5,
     "stock": 43,
     "description": "אורגני שמנים אתריי איכותי לטיפוח העור.",
@@ -7380,7 +7380,7 @@
       "שמן זית",
       "לצה"
     ],
-    "image": "https://via.placeholder.com/300?text=200",
+    "image": "shared/soap_images/soap_44.png",
     "rating": 3.9,
     "stock": 4,
     "description": "מרענן סבוני איכותי לטיפוח העור.",
