@@ -1,4 +1,16 @@
+/* Define theme variables */
 :root {
+  --color-primary: #a37da3;
+  --color-secondary: #a3a37d;
+  --color-background: #ffffff;
+  --color-text: #333333;
+  --color-border: #e0e0e0;
+  --color-accent: #f4f4f4;
+  --color-hover: #d6d6d6;
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --border-radius: 8px;
+
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -52,20 +64,45 @@ h1 {
   line-height: 1.1;
 }
 
+/* Global form controls styling */
+input,
+select {
+  padding: var(--spacing-small);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+
+/* Global button styling */
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: 'Roboto', sans-serif;
-  background-color: #1a1a1a;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  background-color: var(--color-primary);
+  color: #ffffff;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: var(--color-secondary);
 }
+button:disabled {
+  background-color: var(--color-border);
+  cursor: not-allowed;
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;

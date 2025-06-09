@@ -83,6 +83,7 @@ function ProductCatalog() {
           >
             <div className="product-card" onClick={(e) => e.stopPropagation()}>
               <img
+                className="product-img"
                 src={getImageSrc(product)}
                 alt={product.name}
                 loading="lazy"
